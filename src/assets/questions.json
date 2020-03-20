@@ -1,0 +1,135 @@
+[
+    {
+        "question": "What is the difference between the equality operators == and ===?",
+        "answer": "Triple equals (===) checks for strict equality, which means both the type and value must be the same. Double equals (==) on the other hand first performs type coercion so that both operands are of the same type and then applies strict comparison.",
+        "level": "Easy",
+        "company": "abc",
+        "tag": "javascript"
+    },
+    {
+        "question": "What is the difference between the postfix i++ and prefix ++i increment operators?",
+        "answer": "Both increment the variable value by 1. The difference is what they evaluate to. The postfix increment operator evaluates to the value before it was incremented. The prefix increment operator evaluates to the value after it was incremented.",
+        "level": "Easy",
+        "company": "abc",
+        "tag": "general"
+    },
+    {
+        "question": "What is a stateless component?",
+        "answer": "A stateless component is a component whose behaviour does not depend on its state. Stateless components can be either functional or class components. Stateless functional components are easier to maintain and test since they are guaranteed to produce the same output given the same props. Stateless functional components should be preferred when lifecycle hooks don't need to be used.",
+        "level": "Easy",
+        "company": "abc",
+        "tag": "react"
+    },
+    {
+        "question": "What is polymorphism?",
+        "answer": "Polymorphism is the ability of an object to take on multiple forms. Most commonly polymorphism is used in OOP when a parent class reference is used to refer to a child class object.",
+        "level": "Easy",
+        "company": "abc",
+        "tag": "java"
+    },
+    {
+        "question": "What are the instance and class variables?",
+        "answer": "Instance variable belongs to a particular instance of that class whereas Class variable. A class variable is also known as static variables.",
+        "level": "Easy",
+        "company": "abc",
+        "tag": "java"
+    },
+    {
+        "question": "What is the different type of access modifiers?",
+        "answer": "1) Visible to the overall package. No modifier needed. 2) Private – Visible to class only. 3) Public – Visible to the world. 4) Protected – Visible to package and subclass.",
+        "level": "Medium",
+        "company": "abc",
+        "tag": "java"
+    },
+    {
+        "question": "What is the difference between equals() and method and == operator?",
+        "answer": "The equals() is a method and it matches the content of the strings whereas == is an operator and matches object or reference of the strings.",
+        "level": "Medium",
+        "company": "abc",
+        "tag": "java"
+    },
+    {
+        "question": "What is a callback?",
+        "answer": "Callbacks are functions passed as an argument to another function to be executed once an event has occurred or a certain task is complete, often used in asynchronous code. Callback functions are invoked later by a piece of code but can be declared on initialization without being invoked.",
+        "level": "Medium",
+        "company": "abc",
+        "tag": "java"
+    },
+    {
+        "question": "What is CORS?",
+        "answer": "Cross-Origin Resource Sharing or CORS is a mechanism that uses additional HTTP headers to grant a browser permission to access resources from a server at an origin different from the website origin.",
+        "level": "Medium",
+        "company": "abc",
+        "tag": "javascript"
+    },
+    {
+        "question": "What is the difference between em and rem units?",
+        "answer": "em units inherit their value from the font-size of the parent element and rem units inherit their value from the font-size of the root element (html)",
+        "level": "Medium",
+        "company": "abc",
+        "tag": "css"
+    },
+    {
+        "question": "How does hoisting work in JavaScript?",
+        "answer": "Hoisting is a JavaScript mechanism where variable and function declarations are put into memory during the compile phase. This means that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local.",
+        "level": "Medium",
+        "company": "abc",
+        "tag": "javascript"
+    },
+    {
+        "question": "What is the difference between a parameter and an argument?",
+        "answer": "Parameters are the variable names of the function definition, while arguments are the values given to a function when it is invoked.",
+        "level": "Medium",
+        "company": "abc",
+        "tag": "javascript"
+    },
+    {
+        "question": "What is the difference between synchronous and asynchronous code in JavaScript?",
+        "answer": "Synchronous means each operation must wait for the previous one to complete. Asynchronous means an operation can occur while another operation is still being processed.",
+        "level": "Medium",
+        "company": "abc",
+        "tag": "javascript"
+    },
+    {
+        "question": "What is Big O Notation?",
+        "answer": "Big O notation is used in Computer Science to describe the time complexity of an algorithm. The best algorithms will execute the fastest and have the simplest complexity.",
+        "level": "Hard",
+        "company": "abc",
+        "tag": "general"
+    },
+    {
+        "question": "What is event-driven programming?",
+        "answer": "Event-driven programming is a paradigm that involves building applications that send and receive events. When the program emits events, the program responds by running any callback functions that are registered to that event and context, passing in associated data to the function. With this pattern, events can be emitted into the wild without throwing errors even if no functions are subscribed to it.",
+        "level": "Hard",
+        "company": "abc",
+        "tag": "javascript"
+    },
+    {
+        "question": "What is functional programming?",
+        "answer": "Functional programming is a paradigm in which programs are built in a declarative manner using pure functions that avoid shared state and mutable data. Functions that always return the same value for the same input and don't produce side effects are the pillar of functional programming. Many programmers consider this to be the best approach to software development as it reduces bugs and cognitive load.",
+        "level": "Hard",
+        "company": "abc",
+        "tag": "javascript"
+    },
+    {
+        "question": "What are higher-order components?",
+        "answer": "A higher-order component (HOC) is a function that takes a component as an argument and returns a new component. It is a pattern that is derived from React’s compositional nature. Higher-order components are like pure components because they accept any dynamically provided child component, but they won’t modify or copy any behavior from their input components.",
+        "level": "Hard",
+        "company": "abc",
+        "tag": "react"
+    },
+    {
+        "question": "What is the event loop in Node.js?",
+        "answer": "The event loop handles all async callbacks. Callbacks are queued in a loop, while other code runs, and will run one by one when the response for each one has been received.",
+        "level": "Hard",
+        "company": "abc",
+        "tag": "node"
+    },
+    {
+        "question": "What is a pure function?",
+        "answer": "A pure function is a function that satisfies these two conditions: 1) Given the same input, the function returns the same output. 2) The function doesn't cause side effects outside of the function's scope (i.e. mutate data outside the function or data supplied to the function). Pure functions can mutate local data within the function as long as it satisfies the two conditions above. ",
+        "level": "Hard",
+        "company": "abc",
+        "tag": "javascript"
+    }
+]

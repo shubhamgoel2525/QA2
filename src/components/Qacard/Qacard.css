@@ -1,0 +1,92 @@
+.card-container {
+    margin-top:10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 10px grey;
+    padding:3%;
+    border-top:5px solid transparent;
+    border-radius:10px;
+    transition: all ease-in-out 1s;
+}
+
+/* Q-section */
+.Q-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.Q-container {
+    /* flex-basis: 70%; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.Q-text{
+    text-align: justify;
+    font-weight: bold;
+    font-size:2.5vw;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.detail-Container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    width:100%;
+    justify-items: left;
+}
+
+.detail-Container>span {
+    padding: 5px;
+    font-weight: lighter;
+    font-size:1.7vw;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: rgba(45, 71, 4, 0.541);
+}
+
+.A-section {
+    /* display: none;
+    ; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    color:rgb(100, 100, 100);
+}
+.A-container{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.rotate-180{
+    transform: rotate(-180deg);
+    
+}
+.ControlBtn{
+    transition: ease-in-out 0.3s;
+}
+.Easy{
+    border-color: green;
+}
+.Medium{
+    border-color: orange;
+}
+.Hard{
+    border-color:Red;
+}
